@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink, Github, Star } from "lucide-react";
+import {Github} from "lucide-react";
 import bankImage from '../assets/etienne-martin-2_K82gx9Uk8-unsplash (1).jpg';
 import cyber from '../assets/markus-spiske-iar-afB0QQw-unsplash.jpg';
 
@@ -82,7 +82,7 @@ function Projects(){
           
           {/* Featured Projects */}
           <div className="grid lg:grid-cols-2 gap-8 mb-16">
-            {featuredProjects.map((project, index) => (
+            {featuredProjects.map((project) => (
               <Card 
                 key={project.title}
                 className="overflow-hidden bg-card/50 backdrop-blur-sm border-border/50 shadow-card hover:shadow-glow transition-all duration-500 hover:scale-105 group"
