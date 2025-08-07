@@ -39,7 +39,7 @@ function Projects(){
       github: "https://github.com/Jroman5/Jroman5-pep-spring-project",
       live: "#",
       featured: false,
-      stars: 28
+      stars: 0
     },
     {
       title: "Shop API",
@@ -49,19 +49,19 @@ function Projects(){
       github: "https://github.com/Jroman5/shop_CRUD_API",
       live: "#",
       featured: false,
-      stars: 19
+      stars: 0
     },
     
-    // {
-    //   title: "Portfolio Website",
-    //   description: "A modern, responsive portfolio website showcasing projects and skills with beautiful animations and interactions.",
-    //   image: "https://images.unsplash.com/photo-grey-concrete-building-2_K82gx9Uk8?w=600&h=400&fit=crop",
-    //   technologies: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
-    //   github: "#",
-    //   live: "#",
-    //   featured: false,
-    //   stars: 15
-    // }
+    {
+      title: "Portfolio Website",
+      description: "A modern, responsive portfolio website showcasing projects and skills with beautiful animations and interactions.",
+      image: "https://images.unsplash.com/photo-grey-concrete-building-2_K82gx9Uk8?w=600&h=400&fit=crop",
+      technologies: ["React", "Tailwind CSS", "TypeScript", "Vite", "HTML5"],
+      github: "https://github.com/Jroman5/react-vite-twcss-portfolio",
+      live: "#",
+      featured: false,
+      stars: 0
+    }
   ];
 
   const featuredProjects = projects.filter(p => p.featured);
