@@ -2,8 +2,15 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 import heroImage from '../assets/portfolio_hero_image.png';
 import {scrollToSection} from '../lib/util-func';
+import { useEffect } from "react";
+import { preload } from "react-dom";
+
+
+
 
 function Hero(){
+  preload(heroImage, {as: 'image', fetchPriority: 'high'})
+  
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
