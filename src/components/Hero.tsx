@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
 import heroImage from '../assets/portfolio_hero_image.png';
 import {scrollToSection} from '../lib/util-func';
-import { useEffect } from "react";
 import { preload } from "react-dom";
 
 
